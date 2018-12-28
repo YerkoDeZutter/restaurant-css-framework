@@ -63,6 +63,12 @@ main {
   border-right: solid 1px black;
 }
 
+.option{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+}
+
 
 
 
