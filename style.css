@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body{
+  
+}
+
 
 
 
@@ -29,6 +33,10 @@ header {
 
 main {
   margin-top: 70px;
+}
+
+.jumbotron{
+  background-image: url();
 }
 
 
