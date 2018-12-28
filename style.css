@@ -48,13 +48,13 @@ main {
 
 
 
-.menu{
+.center-card{
   margin-top: 100px;
   display: flex;
   justify-content: center;
 }
 
-.menu h3, .menu h4{
+.center-card h3, .center-card h4{
   text-align: center;
   font-weight: bold;
 }
