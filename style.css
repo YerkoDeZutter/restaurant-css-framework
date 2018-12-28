@@ -50,6 +50,7 @@ main {
 
 .center-card{
   margin-top: 100px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
@@ -82,6 +83,16 @@ main {
   left: 25px;
   top: 10px;
   color: white;
+}
+
+.blur-BG{
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background: url(img/intirior.jpg);
+  filter: blur(2px);
 }
 
 
