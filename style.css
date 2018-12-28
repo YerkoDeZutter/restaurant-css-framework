@@ -48,7 +48,7 @@ main {
   width: 90%;
   border: solid 2px white;
   margin: auto;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.5);
 }
 
 .cards{
