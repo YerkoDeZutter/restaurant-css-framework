@@ -60,10 +60,6 @@ main {
   font-weight: bold;
 }
 
-.menuL{
-  border-right: solid 1px black;
-}
-
 .option{
   display: flex;
   justify-content: space-between;
