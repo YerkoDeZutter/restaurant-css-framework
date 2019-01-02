@@ -75,6 +75,9 @@ main {
     background: url(../img/intirior.jpg);
     -webkit-filter: blur(2px);
     filter: blur(2px); }
+  @media screen and (max-width: 30000px) and (min-width: 768px) {
+    main .menuL {
+      border-right: solid 1px black; } }
   main #adres-con {
     height: 700px;
     position: relative;
@@ -85,6 +88,3 @@ main {
       bottom: 0; }
 
 /*FOOTER*/
-@media only screen and (min-width: 768px) {
-  .menuL {
-    border-right: solid 1px black; } }

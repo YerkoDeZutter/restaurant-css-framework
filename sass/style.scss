@@ -97,6 +97,10 @@ main {
     }
   }
 
+
+
+  //MENU
+
   .blur-BG{
     width: 100vw;
     height: 100vh;
@@ -107,8 +111,15 @@ main {
     filter: blur(2px);
   }
 
+  .menuL{
+    @include mQ(30000px, 768px){
+      border-right: solid 1px black;
+    }
+  }
 
 
+
+  //ADERS
 
   #adres-con{
     height: 700px;
@@ -132,13 +143,4 @@ main {
 
 footer {
 
-}
-
-
-
-
-@media only screen and (min-width: 768px){
-  .menuL{
-    border-right: solid 1px black;
-  }
 }
