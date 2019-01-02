@@ -15,7 +15,7 @@ header {
 main {
   margin-top: 100px; }
   main .jumbotron {
-    background: url(img/intirior.jpg);
+    background: url(../img/intirior.jpg);
     background-size: cover;
     background-position: center; }
   main .text-jumbo {
@@ -67,7 +67,7 @@ main {
     left: 0;
     top: 0;
     position: fixed;
-    background: url(img/intirior.jpg);
+    background: url(../img/intirior.jpg);
     -webkit-filter: blur(2px);
     filter: blur(2px); }
 
