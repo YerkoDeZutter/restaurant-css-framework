@@ -34,73 +34,73 @@ header {
 
 main {
   margin-top: 100px;
-}
 
-.jumbotron{
-  background: url(img/intirior.jpg);
-  background-size: cover;
-  background-position: center;
-}
+  .jumbotron{
+    background: url(img/intirior.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 
-.text-jumbo{
-  color: white;
-  text-align: center;
-  width: 80%;
-  border: solid 2px white;
-  margin: auto;
-  background-color: rgba(0,0,0,.5);
-  padding: 5px;
-}
+  .text-jumbo{
+    color: white;
+    text-align: center;
+    width: 80%;
+    border: solid 2px white;
+    margin: auto;
+    background-color: rgba(0,0,0,.5);
+    padding: 5px;
+  }
 
-.cards{
-  display: flex;
-  justify-content: space-around;
-}
-
+  .cards{
+    display: flex;
+    justify-content: space-around;
+  }
 
 
 
-.center-card{
-  margin-top: 100px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-}
 
-.center-card h3, .center-card h4{
-  text-align: center;
-  font-weight: bold;
-}
+  .center-card{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 
-.option{
-  display: flex;
-  justify-content: space-between;
-  padding: 0 15px 0 15px;
-}
+    h3, h4{
+      text-align: center;
+      font-weight: bold;
+    }
+  }
 
-.verzendK input{
-  padding-left: 35px;
-}
+  .option{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+  }
 
-.verzendK{
-  position: relative;
-}
+  .verzendK{
+    position: relative;
 
-.verzendK i{
-  position: absolute;
-  left: 25px;
-  top: 10px;
-  color: white;
-}
+    input{
+      padding-left: 35px;
+    }
 
-.blur-BG{
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: fixed;
-  background: url(img/intirior.jpg);
-  filter: blur(2px);
+    i{
+      position: absolute;
+      left: 25px;
+      top: 10px;
+      color: white;
+    }
+  }
+
+  .blur-BG{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background: url(img/intirior.jpg);
+    filter: blur(2px);
+  }
 }
 
 

@@ -14,72 +14,62 @@ header {
 /*MAIN*/
 main {
   margin-top: 100px; }
-
-.jumbotron {
-  background: url(img/intirior.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.text-jumbo {
-  color: white;
-  text-align: center;
-  width: 80%;
-  border: solid 2px white;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px; }
-
-.cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
-
-.center-card {
-  margin-top: 100px;
-  margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-.center-card h3, .center-card h4 {
-  text-align: center;
-  font-weight: bold; }
-
-.option {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0 15px 0 15px; }
-
-.verzendK input {
-  padding-left: 35px; }
-
-.verzendK {
-  position: relative; }
-
-.verzendK i {
-  position: absolute;
-  left: 25px;
-  top: 10px;
-  color: white; }
-
-.blur-BG {
-  width: 100vw;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: fixed;
-  background: url(img/intirior.jpg);
-  -webkit-filter: blur(2px);
-  filter: blur(2px); }
+  main .jumbotron {
+    background: url(img/intirior.jpg);
+    background-size: cover;
+    background-position: center; }
+  main .text-jumbo {
+    color: white;
+    text-align: center;
+    width: 80%;
+    border: solid 2px white;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px; }
+  main .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  main .center-card {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    main .center-card h3, main .center-card h4 {
+      text-align: center;
+      font-weight: bold; }
+  main .option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 15px 0 15px; }
+  main .verzendK {
+    position: relative; }
+    main .verzendK input {
+      padding-left: 35px; }
+    main .verzendK i {
+      position: absolute;
+      left: 25px;
+      top: 10px;
+      color: white; }
+  main .blur-BG {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background: url(img/intirior.jpg);
+    -webkit-filter: blur(2px);
+    filter: blur(2px); }
 
 /*FOOTER*/
 @media only screen and (min-width: 768px) {
