@@ -19,6 +19,7 @@ main {
     background-size: cover;
     background-position: center;
     border-radius: 0;
+    margin-top: -15px;
     position: relative;
     left: -15px;
     width: calc(100% + 30px); }
