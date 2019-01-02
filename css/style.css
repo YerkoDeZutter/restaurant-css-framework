@@ -17,7 +17,11 @@ main {
   main .jumbotron {
     background: url(../img/intirior.jpg);
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    border-radius: 0;
+    position: relative;
+    left: -15px;
+    width: calc(100% + 30px); }
   main .text-jumbo {
     color: white;
     text-align: center;
