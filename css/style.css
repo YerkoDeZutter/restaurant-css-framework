@@ -70,6 +70,14 @@ main {
     background: url(../img/intirior.jpg);
     -webkit-filter: blur(2px);
     filter: blur(2px); }
+  main #adres-con {
+    height: 700px;
+    position: relative;
+    left: -15px;
+    width: calc(100% + 30px); }
+    main #adres-con iframe {
+      position: absolute;
+      bottom: 0; }
 
 /*FOOTER*/
 @media only screen and (min-width: 768px) {

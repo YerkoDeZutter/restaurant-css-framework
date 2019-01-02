@@ -101,6 +101,21 @@ main {
     background: url(../img/intirior.jpg);
     filter: blur(2px);
   }
+
+
+
+
+  #adres-con{
+    height: 700px;
+    position: relative;
+    left: -15px;
+    width: calc(100% + 30px);
+
+    iframe{
+      position: absolute;
+      bottom: 0;
+    }
+  }
 }
 
 
