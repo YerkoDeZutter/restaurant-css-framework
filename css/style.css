@@ -31,7 +31,7 @@ main {
     color: white;
     text-align: center;
     width: 80%;
-    height: 20vh;
+    min-height: 20vh;
     border: solid 2px white;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
@@ -44,7 +44,7 @@ main {
         font-size: 40px; } }
     @media screen and (max-width: 541px) {
       main .text-jumbo {
-        height: 30vh;
+        min-height: 30vh;
         margin-top: -15vh; } }
   main .cards {
     display: -webkit-box;

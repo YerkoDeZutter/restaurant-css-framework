@@ -60,7 +60,7 @@ main {
     color: white;
     text-align: center;
     width: 80%;
-    height: 20vh;
+    min-height: 20vh;
     border: solid 2px white;
     margin: auto;
     background-color: rgba(0,0,0,.5);
@@ -75,7 +75,7 @@ main {
     }
 
     @include mQ(541px){
-      height: 30vh;
+      min-height: 30vh;
       margin-top: -15vh;
     }
   }
