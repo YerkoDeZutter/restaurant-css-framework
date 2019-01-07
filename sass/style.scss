@@ -60,11 +60,24 @@ main {
     color: white;
     text-align: center;
     width: 80%;
+    height: 20vh;
     border: solid 2px white;
     margin: auto;
     background-color: rgba(0,0,0,.5);
     padding: 5px;
-    margin-top: 30vh;
+    position: relative;
+    top: 50vh;
+    margin-top: -10vh;
+    @include mQ(768px){
+      h1{
+        font-size: 40px;
+      }
+    }
+
+    @include mQ(541px){
+      height: 30vh;
+      margin-top: -15vh;
+    }
   }
 
   .cards{
