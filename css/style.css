@@ -53,6 +53,8 @@ main {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
+    main .cards .card {
+      border: none !important; }
   main .center-card {
     margin-top: 100px;
     margin-bottom: 30px;
